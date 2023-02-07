@@ -1,0 +1,133 @@
+<html>
+    <head>
+    <title>contact us</title>
+    <link rel="stylesheet" href="css/micro.css">
+    <style>
+    .contact{
+        background-color: #99ebdb;
+        width: 100%;
+        height: 100%;
+        opacity: 1;
+    }
+    .btn{
+    display: inline-block;
+    margin-top: 1rem;
+    border-radius: 5rem;
+    background:#cd9292;
+    color:#000000;
+    padding:.9rem 3.5rem;
+    cursor: pointer;
+    font-size: 1.7rem;
+}
+
+.btn:hover{
+    background:var(--pink);
+}
+.heading{
+    text-align: center;
+    font-size: 4rem;
+    color:#333;
+    padding:1rem;
+    margin:2rem 0;
+    background:rgba(255, 51, 153,.05);
+}
+.heading span{
+    color:var(--pink);
+}
+
+.contact .row{
+    display: flex;
+    flex-wrap: wrap-reverse;
+    gap:1.5rem;
+    align-items: center;
+}
+
+.contact .row form{
+    flex:1 1 40rem;
+    padding:2rem 2.5rem;
+    box-shadow: 0 .5rem 1.5rem rgba(0,0,0,.1);
+    border:.1rem solid rgba(0,0,0,.1);
+    background: #fff;
+    border-radius: .5rem;
+}
+
+.contact .row .image{
+    flex:1 1 40rem;
+}
+
+.contact .row .image img{
+    width: 100%;
+}
+
+.contact .row form .box{
+    padding:1rem;
+    font-size: 1.7rem;
+    color:#333;
+    text-transform: none;
+    border:.1rem solid rgba(0,0,0,.1);
+    border-radius: .5rem;
+    margin:.7rem 0;
+    width: 100%;
+}
+
+.contact .row form .box:focus{
+    border-color: var(--pink);
+}
+
+.contact .row form textarea{
+    height: 15rem;
+    resize: none;
+}
+section{
+    padding:2rem 9%;
+}
+*{
+    margin:0; padding:0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    outline: none; border:none;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: .2s linear;
+}
+
+</style>
+    </head>
+
+
+    <body>
+        <header>
+            <a href="#" class="logo"><i class="fas fa-utensils"></i>Oven Stores</a>
+            <div id="menu-bar" class="fas fa-bars"></div>
+            <nav class="navbar">
+              <a class="p1"  href="home.html">HOME</a>
+                <a class="p1" class="active" href="about.html">ABOUT US</a>
+                <a class="p1" href="contact.html">CONTACT US</a>
+                <a class="p1" href="prod.html">PRODUCTS</a>
+            </nav>
+          </header> <br><br><br>
+          <section class="contact" id="contact">
+
+            <h1 class="heading"> <span> contact </span> us </h1>
+        
+            <div class="row">
+        
+                <form action="">
+                    <input type="text" placeholder="name" class="box">
+                    <input type="email" placeholder="email" class="box">
+                    <input type="number" placeholder="number" class="box">
+                    <textarea name="" class="box" placeholder="message" id="" cols="30" rows="10"></textarea>
+                    <input type="submit" value="send message" class="btn">
+                </form>
+        
+                <div class="image">
+                    <img src="https://m.economictimes.com/thumb/msid-95457328,width-1600,height-860,resizemode-4,imgsize-78912/mmm-.jpg" width="150px" height="425px" alt="">
+                </div>
+        
+            </div>
+        
+        </section>
+
+        
+          </body>
+          </html>

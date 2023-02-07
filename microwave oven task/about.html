@@ -1,0 +1,127 @@
+<html>
+    <head>
+    <title>Document</title>
+    </head>
+    <link rel="stylesheet" href="css/micro.css" type="text/css">
+<style>
+     .about{
+        background-color: #9fb0ad;
+        width: 100%;
+        height: 100%;
+        opacity: 1;
+    }
+.heading{
+    text-align: center;
+    font-size: 4rem;
+    color:#604040;
+    padding:1rem;
+    margin:2rem 0;
+    background:rgba(255, 51, 153,.05);
+}
+
+    p{
+        width: 800px;
+    }
+    .about .row{
+    display: flex;
+    align-items: center;
+    gap:2rem;
+    flex-wrap: wrap;
+    padding:2rem 0;
+    padding-bottom: 3rem;
+}
+.about .row .img-container{
+    flex:1 1 40rem;
+    position: relative;
+}
+
+.about .row .img-container img{
+    width:100%;
+    border:1.5rem solid #b53f3f;
+    border-radius: .5rem;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
+    height: 100%;
+    object-fit: cover;
+}
+
+.about .row .img-container h3{
+    position: absolute;
+    top:50%; transform: translateY(-50%);
+    font-size: 3rem;
+    background:#b1a7a7;
+    width:100%;
+    padding:1rem 2rem;
+    text-align: center;
+    mix-blend-mode: screen;
+}
+
+.about .row .content{
+    flex:1 1 40rem;
+}
+
+.about .row .content h3{
+    font-size: 3rem;
+    color:#333;
+}
+
+.about .row .content p{
+    font-size: 1.5rem;
+    color:#999;
+    padding:.5rem 0;
+    padding-top: 1rem;
+    line-height: 1.5;
+}
+
+.btn{
+    display: inline-block;
+    margin-top: 1rem;
+    border-radius: 5rem;
+    background:#c96969;
+    color:#6a0b0b;
+    padding:.9rem 3.5rem;
+    cursor: pointer;
+    font-size: 1.7rem;
+}
+
+.btn:hover{
+    background:var(--blue);
+}
+</style>
+    <body>
+        <header>
+            <a href="#" class="logo"><i class="fas fa-utensils"></i>Oven Stores</a>
+            <div id="menu-bar" class="fas fa-bars"></div>
+            <nav class="navbar">
+                <a class="p1" class="active" href="home.html">HOME</a>
+                <a class="p1" href="about.html">ABOUT US</a>
+                <a class="p1" href="contact.html">CONTACT US</a>
+                <a class="p1" href="prod.html">PRODUCTS</a>
+            </nav>
+          </header>
+          <br><br><br><br>
+          <section class="about" id="about">
+
+            <h1 class="heading"> <span> About </span> Us </h1>
+        
+            <div class="row">
+        
+                <div class="img-container">
+                    <img src="https://purepng.com/public/uploads/large/purepng.com-toaster-microwave-ovenelectronics-microwave-oven-toaster-941524662916miujf.png" >
+                    <h3>Microwave Oven Stores</h3>
+                </div>
+        
+                <div class="content">
+                    <h3>why choose us?</h3>
+                    <p style="font-size:18px ; color: #6a0b0b;">A microwave oven is an 
+                        electric oven that heats and cooks food by exposing it to electromagnetic radiation in the microwave frequency range. 
+                         This induces polar molecules in the food to rotate and produce thermal energy in a process known as dielectric
+                           heating. </p>
+                    <p style="font-size:18px ; color: #6a0b0b;">The exploitation of high-frequency radio waves for heating substances was made possible by the development of vacuum tube radio transmitters around 1920. By 1930 the application of short waves to heat human tissue had developed into the medical therapy of diathermy. </p>
+                    <a href="#" class="btn">learn more</a>
+                </div>
+        
+            </div>
+        
+        </section>
+    </body>
+</html>
